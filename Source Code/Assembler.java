@@ -302,17 +302,16 @@ public class Assembler {
             char type = s.charAt(0);
             
             s = s.substring(s.indexOf('\'') + 1, s.lastIndexOf('\''));
-            
             switch (type) {
                 case 'C':
                     for (char ch : s.toCharArray()) {
                         objCode += Integer.toHexString(ch).toUpperCase();
                     }
-                break;
                 
+                    break;
                 case 'X':
-                    int code1 = Integer.parseInt(s);
-                    objCode = String.format("%06X", code1);
+                    objCode = s;
+                    
                     break;
             }
         } 
