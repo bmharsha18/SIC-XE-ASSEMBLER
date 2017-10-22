@@ -4,11 +4,11 @@ A 2 pass assembler producing object code for the absolute loader used in the SIC
 
 ### -------FEATURES IMPLEMENTED----------
 
-Different addressing modes for SIC/XE
-Text Records
-Modification Records
-Data Records
-Reference Records
+Different addressing modes for SIC/XE \n
+Text Records \n
+Modification Records \n
+Data Records \n
+Reference Records \n
 
 ### run main.java to start the process.
 
